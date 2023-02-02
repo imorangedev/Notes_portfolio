@@ -1,28 +1,22 @@
 import React from 'react';
-import { Header } from '../Header';
+import { PortfolioContext } from '../PortfolioContext';
+import { MyHeader } from '../MyHeader';
 import { ProjectList } from '../ProjectList';
 import { ProjectItem } from '../ProjectItem';
-import { Footer } from '../Footer';
+import { MyFooter } from '../MyFooter';
 
 
-function AppUI (
-    {
-        projects,
-    }
-) {
+function AppUI () {
+
+    const {
+        projects
+    } = React.useContext(PortfolioContext)
 
     return (
     <React.Fragment>
-        <Header/>
-        <ProjectList>
-            {projects.map(project => (
-                <ProjectItem
-                    text={project.project_name}
-                    link={project.link}
-                />
-            ))}
-        </ProjectList>
-        <Footer/>
+        <MyHeader/>
+        <p>Hola mundo!</p>
+        <MyFooter/>
     </React.Fragment>
     );
 }

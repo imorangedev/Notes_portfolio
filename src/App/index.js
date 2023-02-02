@@ -1,5 +1,6 @@
 import React from 'react';
 import { AppUI } from './AppUI';
+import { PortfolioProvider } from '../PortfolioContext';
 
 //import './App.css';
 
@@ -13,9 +14,9 @@ const projects = [
 
 function App() {
   return (
-    <AppUI 
-      projects={projects}
-    />
+    <PortfolioProvider>
+      <AppUI/>
+    </PortfolioProvider>
   );
 }
 
