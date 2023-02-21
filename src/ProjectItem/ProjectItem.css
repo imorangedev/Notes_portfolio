@@ -1,0 +1,50 @@
+.ProjectItem {
+    background-color: #6bc792;
+    font-family: Bahnschrift SemiBold;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 400px;
+    height: 100px;
+    display: inline-grid;
+}
+
+.the-row {
+    /*border: #7A7A7A 1px solid;*/
+    text-align: left;
+    width: 400px;
+    height: 100px;
+}
+
+.redirect-tag {
+    text-decoration: none;
+}
+
+.notes-name {
+    font-family: Bahnschrift SemiBold;
+    color: black;
+    font-size: 20px;
+    margin: 22px 0px 0px 0px;
+    padding: 1px;
+}
+
+.arrow {
+    background-color: transparent;
+    text-align: right;
+    border: none;/*#7A7A7A 1px solid*/
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.level{
+    font-family: Bahnschrift SemiBold;
+    text-decoration: none;
+    color: #fefaec;
+    font-size: 17px;
+    margin: 0px 0px 0px 0px;
+    padding: 1px;
+}
+
+

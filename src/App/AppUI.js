@@ -4,7 +4,7 @@ import { MyHeader } from '../MyHeader';
 import { ProjectList } from '../ProjectList';
 import { ProjectItem } from '../ProjectItem';
 import { MyFooter } from '../MyFooter';
-
+import { Message } from '../Message';
 
 function AppUI () {
 
@@ -12,10 +12,20 @@ function AppUI () {
         projects
     } = React.useContext(PortfolioContext)
 
+
     return (
     <React.Fragment>
         <MyHeader/>
-        <p>Hola mundo!</p>
+        <Message/>
+        <ProjectList>
+            {projects.map( project => (
+                <ProjectItem
+                    text = {project.project_name}
+                    link = {project.url}
+                    level = {project.level}
+                />
+            ))}
+        </ProjectList>
         <MyFooter/>
     </React.Fragment>
     );

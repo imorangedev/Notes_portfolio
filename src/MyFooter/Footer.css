@@ -1,0 +1,65 @@
+.myFooter {
+    text-align: center;
+    background-color: #24242C;
+    padding: 15px;
+    z-index: -2;
+    height: 150px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+a {
+    position:relative;
+}
+
+.contactme_button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid #fefaec;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    z-index: 0;
+}
+
+.contactme_button:after {
+    content: "";
+    background-color: #fefaec;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.contactme_button:hover:after {
+    top: 0px;
+    left: 0px;
+    background-color: #E15638;
+}
+
+@media (min-width: 768px) {
+    .contactme_button {
+      padding: 13px 50px 13px;
+    }
+}

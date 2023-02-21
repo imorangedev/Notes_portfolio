@@ -6,9 +6,11 @@ function ProjectList (props) {
 
     return (
         <section>
-            <ul>
+            <br></br>
+            <div class="main-body">
                 {props.children}
-            </ul>
+            </div>
+            <br></br>
         </section>
     );
 }
