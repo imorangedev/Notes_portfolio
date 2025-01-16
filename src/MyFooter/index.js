@@ -11,10 +11,10 @@ function MyFooter () {
                         <a><button class="contactme_button" role="button">Contact Me!</button></a>
                     </Col>
                     <Col>
-                        <a class="icon" target="_blank" href="https://www.instagram.com/imdiego.dev/"><img class="icon" src="https://portfoliodiegodev.s3.amazonaws.com/ig-logo.png"></img></a>
-                        <a class="icon" target="_blank" href="https://twitter.com/imdiegodev"><img class="icon" src="https://portfoliodiegodev.s3.amazonaws.com/twitter-logo.png"></img></a>
-                        <a class="icon" target="_blank" href="https://www.linkedin.com/in/imdiegodev/"><img class="icon" src="https://portfoliodiegodev.s3.amazonaws.com/linkedin-logo.png"></img></a>
-                        <a class="icon" target="_blank" href="https://github.com/imdiegodev1"><img class="icon" src="https://portfoliodiegodev.s3.amazonaws.com/github-logo.png"></img></a>
+                        <a class="icon" target="_blank" href="https://www.instagram.com/imorange.dev/"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"></img></a>
+                        <a class="icon" target="_blank" href="https://x.com/imorangedev"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"></img></a>
+                        <a class="icon" target="_blank" href="https://www.linkedin.com/in/imorangedev/"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"></img></a>
+                        <a class="icon" target="_blank" href="https://github.com/imorangedev"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></img></a>
                     </Col>
                 </Row>
             </Container>

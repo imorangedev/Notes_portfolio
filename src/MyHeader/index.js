@@ -4,14 +4,14 @@ import './Header.css';
 function MyHeader () {
     return (
         <header class="myheader">
-            <a class="logo-link" href='https://imdiego.dev/' target="_blank">
-                <span><img class="main-logo" src="https://portfoliodiegodev.s3.amazonaws.com/logov4.png"></img></span>
+            <a class="logo-link" href='https://github.com/imorangedev' target="_blank">
+                <span><img class="main-logo" src="https://portfoliodiegodev.s3.us-east-1.amazonaws.com/assets/img/logo.png"></img></span>
             </a>
-            <a class='nav-links' href='https://drive.google.com/file/d/13IXwhFHLCUlPl21ZZ1uEhpUUADsMIC_7/view' target="_blank">CV</a>
-            <a class='nav-links' href='https://imdiego.dev/' target="_blank">Personal webpage</a>
+            <a class='nav-links' href='https://drive.google.com/file/d/1zgyzYY6NTQKaAMUSzsH7MhCS1MMKyo9h/view?usp=sharing' target="_blank">CV</a>
+            
         </header>
     );
 }
-
+// <a class='nav-links' href='https://imdiego.dev/' target="_blank">Personal webpage</a>
 
 export { MyHeader };
