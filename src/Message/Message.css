@@ -18,3 +18,11 @@ div {
     border-radius: 15px;
 }
 
+/* Media query for mobile view */
+@media (max-width: 768px) {
+
+    .message-container {
+        display: None;
+    }
+
+}
